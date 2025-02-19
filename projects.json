@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Проект 1",
+    "description": "Описание проекта 1. Это крутая работа, демонстрирующая мой опыт.",
+    "link": "https://example.com/project1"
+  },
+  {
+    "title": "Проект 2",
+    "description": "Описание проекта 2. Интересный функционал и дизайн.",
+    "link": "https://example.com/project2"
+  }
+]

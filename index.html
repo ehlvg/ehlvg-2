@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Эрих Хельвиг — Фронтенд Разработчик</title>
+    <meta
+      name="description"
+      content="Персональный сайт-визитка Эриха Хельвига — фронтенд разработчика с портфолио, услугами и контактами."
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Основной CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="light-theme">
+    <!-- Переключатель темы -->
+    <button id="theme-toggle" aria-label="Переключить тему">
+      <i id="theme-icon" class="fas fa-moon"></i>
+    </button>
+
+    <header>
+      <nav>
+        <!-- Можно добавить якорные ссылки для удобной навигации -->
+        <ul>
+          <li><a href="#about">О себе</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Секция "О себе" -->
+      <section id="about" class="reveal">
+        <div class="container">
+          <h1>Привет, я Эрих Хельвиг</h1>
+          <p>
+            Я 21-летний фронтенд разработчик, живу и работаю в Берлине. Обладаю
+            опытом работы как в команде, так и самостоятельно, умею работать с
+            Figma и слежу за мелочами.
+          </p>
+          <div class="education-block">
+            <i class="fas fa-graduation-cap"></i>
+            <div class="education-details">
+              <p><strong>ГУАП</strong> (2020–2024)</p>
+              <p>
+                <strong>Яндекс Практикум</strong> по графическому дизайну (2022)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Секция "Портфолио" -->
+      <section id="portfolio" class="reveal">
+        <div class="container">
+          <h2>Портфолио</h2>
+          <div id="projects">
+            <!-- Проекты будут динамически загружаться сюда -->
+            <p>Загрузка проектов...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Секция "Услуги" -->
+      <section id="services" class="reveal">
+        <div class="container">
+          <h2>Услуги</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <i class="fas fa-code"></i>
+              <h3>Веб-разработка</h3>
+              <p>
+                Создание современных, отзывчивых и эффективных веб-приложений.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Дизайн интерфейсов</h3>
+              <p>
+                Разработка интуитивных и привлекательных UI, ориентированных на
+                пользователя.
+              </p>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-users"></i>
+              <h3>Консультации по UX/UI</h3>
+              <p>
+                Экспертные рекомендации по улучшению пользовательского опыта и
+                интерфейса.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Секция "Контакты" -->
+      <section id="contact" class="reveal">
+        <ul class="contact-list">
+          <li>
+            <a href="https://t.me/ehlvg" target="_blank"
+              ><i class="fab fa-telegram"></i> Telegram</a
+            >
+          </li>
+          <li>
+            <a href="mailto:e@helvig.cc"
+              ><i class="fas fa-envelope"></i> Email</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/ehlvg" target="_blank"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+          </li>
+          <li>
+            <a href="tel:+79934804488"
+              ><i class="fas fa-phone"></i> +7 (993) 480-44-88</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Эрих Хельвиг. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <!-- Основной JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
