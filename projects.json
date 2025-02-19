@@ -1,12 +1,44 @@
 [
   {
-    "title": "Проект 1",
-    "description": "Описание проекта 1. Это крутая работа, демонстрирующая мой опыт.",
-    "link": "https://example.com/project1"
+    "title": "Ono Tebe Nado",
+    "description": "Сложный фронтенд для аукциона, реализованный на чистом JavaScript.",
+    "link": "https://github.com/ehlvg/ono-tebe-nado-fd",
+    "preview": "./portfolio/ono-tebe-nado.png"
   },
   {
-    "title": "Проект 2",
-    "description": "Описание проекта 2. Интересный функционал и дизайн.",
-    "link": "https://example.com/project2"
+    "title": "Tatyana Gamuylo",
+    "description": "Коммерческий сайт для психолога, созданный с использованием React и TypeScript.",
+    "link": "https://github.com/ehlvg/tanya-gam",
+    "preview": "./portfolio/tanya-gam.png"
+  },
+  {
+    "title": "Emojity",
+    "description": "Создатель эмодзи-аватаров для социальных сетей.",
+    "link": "https://github.com/ehlvg/emojity-next",
+    "preview": "./portfolio/emojity.png"
+  },
+  {
+    "title": "KomaruShop",
+    "description": "Интернет-магазин для продажи товаров ручной работы.",
+    "link": "https://komarushop.ru",
+    "preview": "./portfolio/komarushop.png"
+  },
+  {
+    "title": "simply.doc",
+    "description": "Полнофункциональный профессиональный текстовый редактор с акцентом на простоту и локальное хранение.",
+    "link": "https://ehlvg.github.io/simplydocs",
+    "preview": "./portfolio/simplydoc.png"
+  },
+  {
+    "title": "Kurilichev",
+    "description": "Персональный сайт в стиле New York Times.",
+    "link": "https://kurilichev.ru",
+    "preview": "./portfolio/kurilichev.png"
+  },
+  {
+    "title": "Disona",
+    "description": "Интерфейс для чат-бота.",
+    "link": "https://github.com/ehlvg/disona-web",
+    "preview": "./portfolio/disona.png"
   }
 ]

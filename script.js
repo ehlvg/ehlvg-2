@@ -40,7 +40,11 @@ function loadProjects() {
         const projectElement = document.createElement("div");
         projectElement.className = "project-card";
         projectElement.innerHTML = `
-          <div class="project-icon"><i class="fas fa-code"></i></div>
+          ${
+            project.preview
+              ? `<div class="project-preview"><img src="${project.preview}" alt="${project.title}"></div>`
+              : ""
+          }
           <div class="project-content">
             <h3>${project.title}</h3>
             <p>${project.description}</p>

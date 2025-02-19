@@ -184,6 +184,7 @@ button:focus {
 
 /* Карточки проектов */
 .project-card {
+  min-height: 400px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -193,6 +194,12 @@ button:focus {
   box-shadow: 0 2px 4px rgba(0 0 0 / 10%);
   margin-bottom: 1rem;
   transition: transform 0.3s ease;
+}
+
+.project-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -209,7 +216,13 @@ button:focus {
   margin-bottom: 0.5rem;
 }
 
+.project-content p {
+  height: 100%;
+  margin-bottom: 0.5rem;
+}
+
 .project-link-card {
+  max-width: fit-content;
   border-radius: 10rem;
   padding: 0.5rem 1rem;
   background-color: var(--bg-action);
@@ -217,7 +230,7 @@ button:focus {
   gap: 0.5rem;
   display: inline-flex;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 0.5em;
   transition: background-color 0.3s ease;
   text-decoration: none;
 }
@@ -309,4 +322,17 @@ footer {
   border-radius: var(--border-radius);
   margin: 1em;
   border-top: 4px dotted var(--text-color);
+}
+
+.project-preview img {
+  max-width: 100%;
+  border: 4px solid var(--text-color);
+  margin-bottom: 1rem;
+  border-radius: calc(var(--border-radius) / 3);
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
 }
