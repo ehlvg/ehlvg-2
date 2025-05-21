@@ -7,11 +7,11 @@ themeToggle.addEventListener("click", () => {
   body.classList.toggle("light-theme");
   const themeIcon = document.getElementById("theme-icon");
   if (body.classList.contains("dark-theme")) {
-    themeIcon.classList.remove("fa-moon");
-    themeIcon.classList.add("fa-sun");
+    themeIcon.classList.remove("ph-moon");
+    themeIcon.classList.add("ph-sun");
   } else {
-    themeIcon.classList.remove("fa-sun");
-    themeIcon.classList.add("fa-moon");
+    themeIcon.classList.remove("ph-sun");
+    themeIcon.classList.add("ph-moon");
   }
   // Сохраняем выбор в localStorage
   localStorage.setItem(
@@ -50,7 +50,7 @@ function loadProjects() {
             <p>${project.description}</p>
             ${
               project.link
-                ? `<div class="project-link-card"><i class="fas fa-external-link-alt"></i><a href="${project.link}" target="_blank" class="project-link">Подробнее</a></div>`
+                ? `<div class="project-link-card"><i class="ph ph-arrow-square-out"></i><a href="${project.link}" target="_blank" class="project-link">Подробнее</a></div>`
                 : ""
             }
           </div>

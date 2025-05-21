@@ -35,7 +35,7 @@ body.dark-theme {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Golos Text", sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", serif;
+  font-family: "Alice", serif;
   margin-bottom: 0.8em;
 }
 
@@ -122,12 +122,11 @@ section.reveal.active {
   transform: translateY(0);
 }
 
-.fa-sun {
+/* Phosphor icon base styles */
+.ph {
   color: var(--text-color);
-}
-
-.fa-moon {
-  color: var(--text-color);
+  font-size: 1em;
+  vertical-align: middle;
 }
 
 /* Анимация для кнопок и интерактивных элементов */
@@ -309,7 +308,7 @@ button:focus {
 
 .service-card h3 {
   margin-bottom: 0.5rem;
-  font-family: "Merriweather", serif;
+  font-family: "Alice", serif;
 }
 
 .service-card p {
@@ -335,4 +334,12 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
+}
+
+.project-link-card:hover .ph {
+  color: var(--bg-action);
+}
+
+.project-link-card .ph {
+  color: var(--text-action);
 }
